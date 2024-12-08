@@ -228,7 +228,7 @@ async def main():
     model_name = "deepseek-chat"
     seed_file = "data/seed_tasks.jsonl"
     output_file = "data/alpaca_data.json"
-    num_instructions = 2000
+    num_instructions = 52000
     
     generator = AlpacaDataGenerator(
         model_name=model_name,
