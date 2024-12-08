@@ -213,7 +213,7 @@ Output: [output]
                     break
                     
             # 添加延迟避免超出API限制
-            time.sleep(1)
+            # time.sleep(1)
         
         # 最终保存
         self.save_dataset(dataset, output_file)
