@@ -232,8 +232,8 @@ async def main():
     
     generator = AlpacaDataGenerator(
         model_name=model_name,
-        batch_size=50,  # 每批次生成5个提示词
-        max_workers=32  # 最大并发数
+        batch_size=500,  
+        max_workers=256
     )
     
     await generator.generate_dataset(
