@@ -15,4 +15,4 @@ python generate_instructions_async.py
 
 ## LoRA Finetuning
 
-LLaMA-Factory is used for easy lora finetuning.
+OpenRLHF is used for easy lora finetuning.
