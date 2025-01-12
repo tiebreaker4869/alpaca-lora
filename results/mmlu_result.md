@@ -1,5 +1,5 @@
 # evaluation result
-                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
+|                 Tasks                 |Version|Filter|n-shot|Metric|   |Value |   |Stderr|
 |---------------------------------------|------:|------|-----:|------|---|-----:|---|-----:|
 |arithmetic_1dc                         |      1|none  |     0|acc   |↑  |0.8725|±  |0.0075|
 |arithmetic_2da                         |      1|none  |     0|acc   |↑  |1.0000|±  |0.0000|
